@@ -7,7 +7,6 @@ public class TextBox extends Control{
         super(locator);
     }
 
-
     public void setText(String value){
         this.findControl();
         this.control.clear();
